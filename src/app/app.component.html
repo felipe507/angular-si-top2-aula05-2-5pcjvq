@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<div>
+  <a [routerLink]="['/']">Index</a> | 
+  <a [routerLink]="['/log']">Log</a> |
+  <a [routerLink]="['/tasks']">Tarefas</a> |
+  <span>{{timer.getCount()}}s</span>
+</div>
+<hr/>
+<router-outlet></router-outlet>
